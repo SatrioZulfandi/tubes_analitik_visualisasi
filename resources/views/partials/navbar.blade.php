@@ -9,8 +9,6 @@
     </ul>
 
     <ul class="navbar-nav ml-auto">
-        <li class="nav-item d-none d-sm-inline-block">
-            <span class="nav-link text-muted"><i class="far fa-calendar-alt mr-1"></i> {{ \Carbon\Carbon::now()->translatedFormat('l, d F Y') }}</span>
-        </li>
+    </ul>
     </ul>
 </nav>

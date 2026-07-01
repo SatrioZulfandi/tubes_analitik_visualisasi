@@ -34,9 +34,6 @@
                         <span class="mr-3"><i class="fas fa-database mr-1"></i> <span class="kpi-counter">{{ $totalTrips }}</span> Baris Data</span>
                         <span><i class="fas fa-project-diagram mr-1"></i> {{ $totalClusters }} Cluster</span>
                     </div>
-                    <div class="font-weight-bold">
-                        <i class="far fa-calendar-alt mr-1"></i> {{ \Carbon\Carbon::now()->translatedFormat('d F Y') }}
-                    </div>
                 </div>
             </div>
         </div>
